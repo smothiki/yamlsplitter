@@ -2,6 +2,8 @@
 
 Splits the yaml file according to the delimeter and treat the next line to delimeter as the file name
 
+to use this program replace cars.txt to your yml file and change the delimeter varialble
+
 sample file 
 ```
 
