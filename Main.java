@@ -9,14 +9,14 @@ public class Main {
   public static void main(String... args) throws Exception {
     BufferedReader br = new BufferedReader(new FileReader(new File("cars.txt")));
     try{
-      makeCars(br);
+      makeyamls(br);
     }
     finally{
       br.close();
     }
    }
 
-  public static void makeCars(BufferedReader br) throws Exception {
+  public static void makeyamls(BufferedReader br) throws Exception {
 
     String line;
     while((line = br.readLine()) !=null) {
