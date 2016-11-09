@@ -37,4 +37,16 @@ public class Main {
       }
     }
   }
+  public static void makeyamls1(Scanner s) throws Exception {
+    s.useDelimiter(delimeter);
+    while (s.hasNext()){
+      String content=s.next().trim();
+       String name= content.substring(0,content.indexOf("\n"));
+       name = name.substring(1);
+       File file = new File(name);
+       PrintWriter writer = new PrintWriter(file, "UTF-8");
+       writer.println(content);
+       writer.close();
+    }
+  }
 }
